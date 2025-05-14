@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: #f4f4f4;
+    transition: background-color 1s ease-in-out;
+}
+
+.happy { background-color: #f7ea63; }
+.relaxed { background-color: #a0c4ff; }
+.energetic { background-color: #ff9900; }
+.nostalgic { background-color: #8d6e63; }
+.sad { background-color: #5c6bc0; }
+.medival { background-color: #4e342e; }
+.angry { background-color: #d32f2f; }
+.heartbroken { background-color: #880e4f; }
+.confident { background-color: #388e3c; }
+.chill { background-color: #008080; }
+.inspired { background-color: #ffb74d; }
+.romantic { background-color: #e91e63; }
+.blue { background-color: #2196f3; }
+.adventurous { background-color: #ff5722; }
+.studious { background-color: #673ab7; }
+.wild { background-color: #43a047; }
+.like-a-fairy { background-color: #b39ddb; }
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); } 
+    to { opacity: 1; transform: translateY(0); }
+    
+}
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    animation: fadeIn 1s ease-in-out;
+}
